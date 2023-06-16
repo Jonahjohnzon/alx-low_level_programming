@@ -8,10 +8,13 @@ int main(void)
 {	int number = 0;
 	do {
 	putchar('0' + number);
+	if (number != 9)
+	{
 	putchar(',');
 	putchar(' ');
+	}
 	number++;
-	} while (number < 9);
-	putchar('0' + number);
+	} while (number < 10);
+	putchar('\n');
 	return (0);
 }
