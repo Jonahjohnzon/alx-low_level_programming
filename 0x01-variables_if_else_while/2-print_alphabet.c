@@ -16,5 +16,5 @@ int main(void)
 	putchar(alphabets[start]);
 	start++;
 	} while (start < length);
-	putchar("\n");
+	putchar('\n');
 	return (0); }
