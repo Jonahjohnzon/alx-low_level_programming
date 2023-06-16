@@ -15,8 +15,8 @@ int main(void)
 	{
 	if (first != second)
 	{
-	putchar('0'+ first);
-	putchar('0'+ second);
+	putchar('0' + first);
+	putchar('0' + second);
 	if (first == 8 && second == 9)
 	{
 	continue;
@@ -26,5 +26,6 @@ int main(void)
 	}
 	}
 	}
+	putchar('\n');
 	return (0);
 }
