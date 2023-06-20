@@ -14,7 +14,7 @@ int main(void)
 
 	int count;
 
-	for (count = 0; count <= length; count++)
+	for (count = 0; count < length; count++)
 	{
 	_putchar(stringss[count]);
 	}
