@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * _islower - Check case
  * @c: Character to be checked
