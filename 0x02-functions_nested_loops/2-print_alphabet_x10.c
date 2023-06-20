@@ -7,12 +7,12 @@
 void print_alphabet_x10(void)
 {	char startone;
 
-	char finishone = "z";
+	char finishone = 'z';
 
 	int count = 0;
 
 	do {
-	for (startone = "a"; start <= finishone; startone++)
+	for (startone = 'a'; start <= finishone; startone++)
 	{
 	_putchar(startone);
 	_putchar('\n');
