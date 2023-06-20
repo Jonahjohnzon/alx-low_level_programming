@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdio.h>
+#include <ctype.h>
 /**
  * _islower - Check case
  * @c: Character to be checked
