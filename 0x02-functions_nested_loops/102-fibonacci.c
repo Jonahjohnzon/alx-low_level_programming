@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	long start;
+	long long start;
 
 	int n = 1;
 
@@ -16,7 +16,7 @@ int main(void)
 	{
 	n = start - n;
 	}
-	printf("%ld", start);
+	printf("%lli", start);
 	if ((start + n) < 20365011074)
 	{
 	printf(", ");
