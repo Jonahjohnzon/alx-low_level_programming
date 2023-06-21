@@ -28,8 +28,14 @@ void print_times_table(int n)
 		{
 		_putchar(',');
 		_putchar(' ');
+		if (third > 9)
+		{
 		_putchar(' ');
+		}
+		if (third > 99)
+		{
 		_putchar(' ');
+		}
 		}
 		}
 	_putchar('\n');
