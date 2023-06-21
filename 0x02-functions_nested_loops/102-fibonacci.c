@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-	int start;
+	long start;
 
 	int n = 1;
 
-	for (start = 1; start < 50; start += n)
+	for (start = 1; start <= 12586269025; start += n)
 	{
 	if (start > 1)
 	{
 	n = start - n;
 	}
-	printf("%d", start);
+	printf("%ld", start);
 	if ((start + n) < 50)
 	{
 	printf(", ");
