@@ -17,21 +17,30 @@ void print_times_table(int n)
 		third = start * second;
 		if (third > 99)
 		{
+		_putchar(',');
+		_putchar(' ');
 		_putchar((third / 100) + '0');
+		_putchar(((third / 10) % 10) + '0');
+		_putchar(third % 10 + '0');
 		}
-		if (third > 9)
+		else if (third > 9)
 		{
+		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
 		_putchar(((third / 10) % 10) + '0');
-		}
 		_putchar(third % 10 + '0');
-		if (second < n)
+		}
+		else
+		{
+		if (second != 0)
 		{
 		_putchar(',');
 		_putchar(' ');
 		_putchar(' ');
 		_putchar(' ');
+		}
+		_putchar(third % 10 + '0');
 		}
 		}
 	_putchar('\n');
