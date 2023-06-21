@@ -21,21 +21,17 @@ void print_times_table(int n)
 		}
 		if (third > 9)
 		{
+		_putchar(' ');
+		_putchar(' ');
 		_putchar(((third / 10) % 10) + '0');
 		}
 		_putchar(third % 10 + '0');
 		if (second < n)
 		{
 		_putchar(',');
-		if (third < 10)
-		{
 		_putchar(' ');
 		_putchar(' ');
-		}
-		if (third < 100)
-		{
 		_putchar(' ');
-		}
 		}
 		}
 	_putchar('\n');
