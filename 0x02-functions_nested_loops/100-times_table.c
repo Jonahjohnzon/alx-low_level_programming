@@ -27,8 +27,9 @@ void print_times_table(int n)
 		if (second < n)
 		{
 		_putchar(',');
-		}
 		_putchar(' ');
+		_putchar(' ');
+		}
 		}
 	_putchar('\n');
 	}
