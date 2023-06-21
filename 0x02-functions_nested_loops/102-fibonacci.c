@@ -10,14 +10,14 @@ int main(void)
 
 	int n = 1;
 
-	for (start = 1; start <= 12586269025; start += n)
+	for (start = 1; start <= 20365011074; start += n)
 	{
 	if (start > 1)
 	{
 	n = start - n;
 	}
 	printf("%ld", start);
-	if ((start + n) < 50)
+	if ((start + n) < 20365011074)
 	{
 	printf(", ");
 	}
