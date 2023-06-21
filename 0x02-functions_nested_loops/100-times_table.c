@@ -28,11 +28,11 @@ void print_times_table(int n)
 		{
 		_putchar(',');
 		_putchar(' ');
-		if (third > 9)
+		if (third < 10)
 		{
 		_putchar(' ');
 		}
-		if (third > 99)
+		if (third < 100)
 		{
 		_putchar(' ');
 		}
