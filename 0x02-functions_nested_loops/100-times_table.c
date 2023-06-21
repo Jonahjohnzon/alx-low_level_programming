@@ -14,7 +14,7 @@ void print_times_table(int n)
 	{
 		for (second = 0; second <= n; second++)
 		{
-		third = start * third;
+		third = start * second;
 		if (third > 99)
 		{
 		_putchar((third / 100) + '0');
