@@ -17,7 +17,10 @@ void print_diagonal(int n)
 	{
 	for (space = 1; space <= first; space++)
 	{
+	if (space != 1)
+	{
 	_putchar(' ');
+	}
 	}
 	_putchar('\\');
 	if (first != n)
