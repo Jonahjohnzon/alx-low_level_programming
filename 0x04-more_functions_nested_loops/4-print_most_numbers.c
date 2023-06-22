@@ -8,7 +8,7 @@ void print_most_number(void)
 {	int n = 0;
 
 	do {
-	if (n != 2 || n != 4)
+	if (n != 2 && n != 4)
 	{
 	_putchar(n + '0');
 	}
