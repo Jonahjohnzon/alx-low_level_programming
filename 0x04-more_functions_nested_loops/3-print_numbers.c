@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - Print number
- * Description: 'Print fron 0 -9'
+ * Description: 'Print fron 0 - 9'
  * Return: Result
  */
 void print_numbers(void)
@@ -9,8 +9,8 @@ void print_numbers(void)
 
 	do {
 
-	putchar(n + '0');
+	_putchar(n + '0');
 	n++;
 	} while (n <= 9);
-	putchar('\n');
+	_putchar('\n');
 }
