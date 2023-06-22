@@ -2,7 +2,7 @@
 /**
  * print_most_number - Print number
  * Description: 'Print fron 0 - 9 except 2 and 4'
- * Return: Result
+ * Return: void
  */
 void print_most_number(void)
 {	int n = 0;
