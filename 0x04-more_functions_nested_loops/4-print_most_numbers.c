@@ -2,22 +2,17 @@
 /**
  * print_most_number - Print number
  * Description: 'Print fron 0 - 9 except 2 and 4'
- * Return: void
+ * Return: Result
  */
 void print_most_number(void)
-{	int x = 0;
+{	int n = 0;
 
-	for (; x <= 9; x++)
+	do {
+	if (n != 2 && n != 4)
 	{
-	if (x == 2 || x == 4)
-	{
-	continue;
+	_putchar(n + '0');
 	}
-	else
-	{
-	_putchar(x + '0');
-	}
-	}
-
+	n++;
+	} while (n <= 9);
 	_putchar('\n');
 }
