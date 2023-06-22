@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_square - Print square
- * Description: 'Print box according to input'
+ * print_triangle - Print triangle
+ * Description: 'Print according to input'
  * @n: Input
  * Return: void
  */
-void print_square(int n)
+void print_triangle(int n)
 {
 	int first;
 
