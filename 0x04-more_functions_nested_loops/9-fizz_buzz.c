@@ -4,7 +4,7 @@
  * Description: 'Print line according to input'
  * Return: void
  */
-int main()
+int main(void)
 {
 	int start;
 
@@ -24,7 +24,7 @@ int main()
 	}
 	else
 	{
-	printf("%d",start);
+	printf("%d", start);
 	}
 	if (start < 100)
 	{
