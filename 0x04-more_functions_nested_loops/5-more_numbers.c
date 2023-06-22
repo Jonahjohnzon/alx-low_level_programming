@@ -6,13 +6,13 @@
  */
 void more_numbers(void)
 {
-	int start = 0;
+	int start;
 
-	for (start; start <= 10; start++)
+	for (start = 0; start <= 10; start++)
 	{
-	int number = 0;
+	int number;
 
-	for (number; number <= 14; number++)
+	for (number = 0; number <= 14; number++)
 	{
 	if (number > 9)
 	{
