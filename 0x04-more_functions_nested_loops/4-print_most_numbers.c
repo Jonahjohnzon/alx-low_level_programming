@@ -5,14 +5,19 @@
  * Return: void
  */
 void print_most_number(void)
-{	int n = 0;
+{	int x = 0;
 
-	do {
-	if (n != 2 && n != 4)
+	for (; x <= 9; x++)
 	{
-	_putchar(n + '0');
+	if (x == 2 || x == 4)
+	{
+	continue;
 	}
-	n++;
-	} while (n <= 9);
+	else
+	{
+	_putchar(x + '0');
+	}
+	}
+
 	_putchar('\n');
 }
