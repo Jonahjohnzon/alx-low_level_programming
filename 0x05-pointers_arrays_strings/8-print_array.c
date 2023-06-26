@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  * print_array - pointers and string
  * Description: 'prints a string, followed by a new line, to stdout'
@@ -11,7 +12,7 @@ void print_array(int *a, int n)
 
 	for (i = 0; i < n; i++)
 	{
-	_putchar((*(a + i)) + '0');
+	printf("%d",*(a + i));
 	}
-	_putchar('\n');
+	printf('\n');
 }
