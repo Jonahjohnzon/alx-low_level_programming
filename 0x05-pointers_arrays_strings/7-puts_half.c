@@ -18,14 +18,14 @@ void puts_half(char *str)
 	{
 		if (start % 2 != 0)
 		{
-			if (start2 > start)
+			if (start2 > start / 2)
 			{
 			_putchar(*(str + start2));
 			}
 		}
 		else if (start % 2 == 0)
 		{
-			if (start2 >= start)
+			if (start2 >= start / 2)
 			{
 			_putchar(*(str + start2));
 			}
