@@ -6,12 +6,12 @@
  * @n: number to print
  * Return: void
  */
-void print_array(char *a, int n)
+void print_array(int *a, int n)
 {	int i;
 
 	for (i = 0; i < n; i++)
 	{
-	_putchar(*(a + i));
+	_putchar((*(a + i)) + '0');
 	}
 	_putchar('\n');
 }
