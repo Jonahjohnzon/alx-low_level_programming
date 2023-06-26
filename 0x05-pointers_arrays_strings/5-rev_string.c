@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * print_rev - Pointers and string
+ * rev_string - Pointers and string
  * Description: 'prints a string, in reverse'
  * @s: string
  * Return: void
  */
-void print_rev(char *s)
+void rev_string(char *s)
 {
 	int start = 0;
 
