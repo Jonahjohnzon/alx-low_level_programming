@@ -16,13 +16,19 @@ void puts_half(char *str)
 	}
 	for (start2 = 0; start2 < start; start2++)
 	{
-		if (start2 > start && start % 2 != 0)
+		if (start % 2 != 0)
 		{
+			if (start2 > start)
+			{
 			_putchar(*(str + start2));
+			}
 		}
-		else if (start2 >= start && start % 2 == 0)
+		else if (start % 2 == 0)
 		{
+			if (start2 >= start)
+			{
 			_putchar(*(str + start2));
+			}
 		}
 	}
 	_putchar('\n');
