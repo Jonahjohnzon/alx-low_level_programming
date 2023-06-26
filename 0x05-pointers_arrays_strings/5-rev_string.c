@@ -11,8 +11,6 @@ void rev_string(char *s)
 
 	int second;
 
-	char new[10000];
-
 	int start2 = 0;
 
 	while (s[start] != '\0')
@@ -21,8 +19,7 @@ void rev_string(char *s)
 	}
 	for (second = start; second >= 0; second--)
 	{
-	new[start2 - 1] = (*(s + second));
+	(*(s + start2)) = (*(s + second - 1));
 	start2++;
 	}
-	s = new;
 }
