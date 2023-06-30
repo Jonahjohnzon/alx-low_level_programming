@@ -26,10 +26,10 @@ int _strcmp(char *s1, char *s2)
 	}
 	else if (i > z)
 	{
-		return (15);
+		return (i - z);
 	}
 	else
 	{
-		return (-15);
+		return (z - i);
 	}
 }
