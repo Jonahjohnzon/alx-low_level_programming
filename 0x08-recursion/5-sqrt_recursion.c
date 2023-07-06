@@ -33,5 +33,5 @@ int count(int x, int y)
 	{
 		return (y);
 	}
-	count(x, y + 1);
+	return (count(x, y + 1));
 }
