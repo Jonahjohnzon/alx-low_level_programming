@@ -12,7 +12,7 @@ int is_prime_number(int n)
 	{
 	return (0);
 	}
-	prime(n, n - 1);
+	return (prime(n, n - 1));
 }
 /**
  * prime - Recursion
@@ -31,5 +31,5 @@ int prime(int x, int y)
 	{
 	return (0);
 	}
-	prime(x, y - 1);
+	return (prime(x, y - 1));
 }
