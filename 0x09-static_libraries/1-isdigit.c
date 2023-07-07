@@ -2,6 +2,7 @@
 /**
  * _isdigit - Function
  * Description: 'check for digit'
+ * @c: input
  * Return: 1 or 0;
  */
 int _isdigit(int c)
@@ -10,5 +11,6 @@ int _isdigit(int c)
 	{
 	return (1);
 	}
-	return (0);	
+
+	return (0);
 }
