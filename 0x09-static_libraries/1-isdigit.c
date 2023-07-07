@@ -1,11 +1,15 @@
 #include "main.h"
 /**
- * _isdigit - Function
- * Description: 'check for digit'
- * @c: input
- * Return: 1 or 0;
+ * _isdigit - case checker
+ * Description: 'digit checker'
+ * @c: character input
+ * Return: 1 or 0
  */
 int _isdigit(int c)
 {
-	return (c >= '0' && c <= '9');
+	if (c >= 48 && c <= 57)
+	{
+	return (1);
+	}
+	return (0);
 }
