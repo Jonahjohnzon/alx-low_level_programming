@@ -1,14 +1,20 @@
 #include "main.h"
 /**
- * _abs - check lower
- * @c: input
- * Return: 1 or 0
+ * _abs - Check case
+ * @c: Character to be checked
+ * Description: 'Convert to abs'
+ * Return: abs
  */
-int _abs (int n)
+int _abs(int c)
 {
-	if (n < 0)
+	if (c < 0)
 	{
-		return (-n);
+		int abs_val;
+
+		abs_val = c * -1;
+
+		return (abs_val);
 	}
-	return (n);
+
+	return (c);
 }

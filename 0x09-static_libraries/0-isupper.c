@@ -1,14 +1,15 @@
 #include "main.h"
 /**
- * _isupper - check upper
- * @c: input
+ * _isupper - case checker
+ * Description: 'Alphabet checker'
+ * @c: character input
  * Return: 1 or 0
  */
 int _isupper(int c)
 {
-	if(c >= 'A' && c <= 'Z')
+	if (c >= 'A' && c <= 'Z')
 	{
-		return (1);
+	return (1);
 	}
 	return (0);
 }
