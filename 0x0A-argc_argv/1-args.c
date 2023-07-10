@@ -8,9 +8,9 @@
  * Description: 'print argc'
  * Return: Always 0 (Success)
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] _attribute_((unused)))
 {
-	printf("%d\n", argc - 1);
+	printf("%d\n", (argc - 1));
 
 	return (0);
 }
