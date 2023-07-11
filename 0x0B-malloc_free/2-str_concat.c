@@ -41,7 +41,7 @@ char *str_concat(char *s1, char *s2)
 	}
 	for (count2 = 0; count2 < alpha2; count2++)
 	{
-	addr[count] = s1[count2];
+	addr[count] = s2[count2];
 	}
 
 	*(addr + count) = '\0';
