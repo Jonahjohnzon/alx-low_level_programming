@@ -33,7 +33,7 @@ char *_strdup(char *str)
 
 	for (count = 0; count < alpha; count++)
 	{
-		(addr + count) = (str + count);
+		addr[count] = str[count];
 	}
 
 	return (addr);
