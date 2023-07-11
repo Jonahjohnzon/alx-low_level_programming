@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (*(str + alpha) != '\0')
+	while (str[alpha])
 	{
 		alpha++;
 	}
