@@ -32,10 +32,9 @@ char *_strdup(char *str)
 	}
 
 	for (count = 0; count < alpha; count++)
-	{	
-		*(addr + count) = *(str + count);
+	{
+		(addr + count) = (str + count);
 	}
-	*(addr + count) = '\0';
 
 	return (addr);
 }
