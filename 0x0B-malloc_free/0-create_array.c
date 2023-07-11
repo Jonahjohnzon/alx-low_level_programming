@@ -26,7 +26,7 @@ char *create_array(unsigned int size, char c)
 		return (0);
 	}
 
-	for (count = 0; count < size; count)
+	for (count = 0; count < size; count++)
 	{
 		*(addr + count) = c;
 	}
