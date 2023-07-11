@@ -31,7 +31,7 @@ char *create_array(unsigned int size, char c)
 		*(addr + count) = c;
 	}
 
-	*(addr + 1) = '\0';
+	*(addr + count) = '\0';
 
 	return (addr);
 }
