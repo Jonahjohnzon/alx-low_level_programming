@@ -12,7 +12,7 @@ char *_strdup(char *str)
 {
 	char *addr;
 
-	int count, alpha;
+	unsigned int count, alpha;
 
 	alpha = 0;
 
@@ -20,7 +20,7 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	while (str[alpha])
+	while (*(str + alpha) != '\0')
 	{
 		alpha++;
 	}
@@ -33,10 +33,7 @@ char *_strdup(char *str)
 
 	for (count = 0; count < alpha; count++)
 	{	
-		if (str[count] != '\0')
-		{
 		*(addr + count) = *(str + count);
-		}
 	}
 	*(addr + count) = '\0';
 
