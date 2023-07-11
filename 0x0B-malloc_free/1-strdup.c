@@ -35,7 +35,7 @@ char *_strdup(char *str)
 	{
 		*(addr + count) = *(str + count);
 	}
-	*(addr + count) = '\0'
+	*(addr + count) = '\0';
 
 	return (addr);
 }
