@@ -24,14 +24,14 @@ char *_strdup(char *str)
 	{
 		alpha++;
 	}
-	addr = malloc(alpha * sizeof(char));
+	addr =(char *) malloc(alpha * sizeof(char));
 
 	if (addr == NULL)
 	{
 		return (NULL);
 	}
 
-	for (count = 0; count <= alpha; count++)
+	for (count = 0; count < alpha; count++)
 	{
 		*(addr + count) = *(str + count);
 	}
