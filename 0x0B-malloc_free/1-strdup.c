@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	{
 		alpha++;
 	}
-	addr = (char *) malloc(alpha * sizeof(char));
+	addr = malloc(alpha * sizeof(char));
 
 	if (addr == NULL)
 	{
