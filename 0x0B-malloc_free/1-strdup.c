@@ -32,8 +32,11 @@ char *_strdup(char *str)
 	}
 
 	for (count = 0; count < alpha; count++)
-	{
+	{	
+		if (str[count] != '\0')
+		{
 		*(addr + count) = *(str + count);
+		}
 	}
 	*(addr + count) = '\0';
 
