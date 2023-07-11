@@ -24,7 +24,7 @@ char *_strdup(char *str)
 	{
 		alpha++;
 	}
-	addr = (char *) malloc(alpha * sizeof(char));
+	addr = (char *) malloc((alpha + 1) * sizeof(char));
 
 	if (addr == NULL)
 	{
@@ -35,6 +35,7 @@ char *_strdup(char *str)
 	{
 		addr[count] = str[count];
 	}
+	*(addr + count) = '\0';
 
 	return (addr);
 }
