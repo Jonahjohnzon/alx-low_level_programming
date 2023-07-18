@@ -1,4 +1,5 @@
-
+#ifndef MAIN_F
+#define MAIN_F
 /**
  * struct dog - a dog's basic info
  * @name: First member
@@ -18,3 +19,4 @@ struct dog
  * dogtype - typedef for struct dog
  */
 typedef dog dogtype;
+#endif
