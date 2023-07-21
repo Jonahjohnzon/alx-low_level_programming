@@ -2,6 +2,7 @@
 /**
  * print_numbers - Variadic function
  * @n: input
+ * @separator: string
  * Return: int
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
