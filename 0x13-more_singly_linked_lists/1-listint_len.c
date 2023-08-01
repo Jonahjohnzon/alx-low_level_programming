@@ -2,7 +2,7 @@
 /**
  * listint_len - Singly linked list
  * @h: input
- * Description: function that prints all the elements of a listint_t list
+ * Description: function that counts all the elements of a listint_t list
  * Return: size_t
  */
 size_t listint_len(const listint_t *h)
