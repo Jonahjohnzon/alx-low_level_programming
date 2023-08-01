@@ -3,7 +3,7 @@
  * free_listint2 - free linked list
  * @head: listint_t input
  */
-void free_listint(listint_t *head)
+void free_listint2(listint_t **head)
 {
 	listint_t *tmp;
 	
