@@ -1,8 +1,9 @@
 #include "lists.h"
 /**
  * add_nodeint - Singly linked list
- * @h: input
- * Description: function that prints all the elements of a listint_t list
+ * @n: input
+ * @head: node
+ * Description: add more nodes
  * Return: size_t
  */
 listint_t *add_nodeint(listint_t **head, const int n)
@@ -13,11 +14,10 @@ listint_t *add_nodeint(listint_t **head, const int n)
 
 	if (!newnode)
 	{
-		return(NULL);
+		return (NULL);
 	}
 	newnode->n = n;
 	newnode->next = *head;
-
 
 	return (newnode);
 
