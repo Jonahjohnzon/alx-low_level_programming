@@ -5,4 +5,5 @@ int _pow_recursion(int x, int y);
 unsigned int binary_to_uint(const char *b);
 void print_binary(unsigned long int n);
 int _putchar(char c);
+void base(unsigned long int n );
 #endif
