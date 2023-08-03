@@ -30,13 +30,9 @@ unsigned int binary_to_uint(const char *b)
 
 	unsigned int amount = 0;
 
-	int count_total = malloc(b);
+	int count_total = sizeof(b);
 
 	if (b == NULL)
-	{
-		return (0);
-	}
-	if (count_total == NULL)
 	{
 		return (0);
 	}
