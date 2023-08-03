@@ -30,27 +30,31 @@ unsigned int binary_to_uint(const char *b)
 
 	unsigned int amount = 0;
 
-	int count_total = sizeof(b);
+	int top = 0;
+
+	int power = 0;
 
 	if (b == NULL)
 	{
-		return (0);
+	return (0);
 	}
-	for (count = 0; count < count_total; count++)
+	while (b[top] != '\0')
 	{
-		if (*b != '0' || *b != '1')
+	top++;
+	}
+	for (count = top - 1; count >= 0; count--)
+	{
+
+		if (b[count] != '0' && b[count] != '1')
 		{
-			return (0);
+		return (0);
 		}
-		if (*b == '0')
+
+		if (b[count] == '1')
 		{
-		amount += (0) * (_pow_recursion(10, count));
+		amount += 1 * (_pow_recursion(2, power));
 		}
-		else if (*b == '1')
-		{
-		amount += 1 * (_pow_recursion(10, count));
-		}
-		b++;
+	power++;
 
 	}
 	return (amount);
