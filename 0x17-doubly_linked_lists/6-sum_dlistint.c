@@ -9,8 +9,8 @@ int sum_dlistint(dlistint_t *head)
 {
 	dlistint_t *list_h = head;
 	int sum = 0;
-	
-	if(head == NULL)
+
+	if (head == NULL)
 	{
 		return (0);
 	}
