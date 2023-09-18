@@ -1,22 +1,11 @@
-#include <string.h>
-#include "main.h"
+#include <unistd.h>
+
 /**
- * main - Entry point
- * Description: 'Putchar'
- * Return: Always 0 (Success)
+ * _putchar - print
+ * @c: input
+ * Return: int
  */
-int main(void)
+int _putchar(char c)
 {
-	char stringss[] = "_putchar";
-
-	int length = strlen(stringss);
-
-	int count;
-
-	for (count = 0; count < length; count++)
-	{
-	_putchar(stringss[count]);
-	}
-	_putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
