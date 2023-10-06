@@ -2,7 +2,7 @@
 
 /**
  * key_index - Function
- * @key:  the index 
+ * @key:  the index
  * @size: array size
  * Return: int
  */
