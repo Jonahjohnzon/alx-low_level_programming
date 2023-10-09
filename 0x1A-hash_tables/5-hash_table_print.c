@@ -12,12 +12,12 @@ void hash_table_print(const hash_table_t *ht)
 	unsigned long int x;
 	unsigned char comflag = 0;
 
-	if (ht == NULL){
+	if (ht == NULL)
 	{
 		return;
 	}
 	printf("{");
-	for (x = 0; x < ht->size;xi++)
+	for (x = 0; x < ht->size; x++)
 	{
 		if (ht->array[x] != NULL)
 		{
